@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { ImageBitmapLoader } from '../../../../src/loaders/ImageBitmapLoader.js';
+import { ImageBitmapLoader } from '../../../../src/ddd/domain/support/loaders/ImageBitmapLoader.js';
 
-import { Loader } from '../../../../src/loaders/Loader.js';
+import { Loader } from '../../../../src/ddd/domain/support/loaders/Loader.js';
 import { CONSOLE_LEVEL } from '../../utils/console-wrapper.js';
 
 export default QUnit.module( 'Loaders', () => {

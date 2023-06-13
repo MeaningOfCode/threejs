@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { Shape } from '../../../../../src/extras/core/Shape.js';
+import { Shape } from '../../../../../src/ddd/infrastructure/extras/core/Shape.js';
 
-import { Path } from '../../../../../src/extras/core/Path.js';
+import { Path } from '../../../../../src/ddd/infrastructure/extras/core/Path.js';
 
 export default QUnit.module( 'Extras', () => {
 

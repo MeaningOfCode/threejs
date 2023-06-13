@@ -3,7 +3,7 @@
 ///* global QUnit */
 
 import { SmartComparer } from './SmartComparer.js';
-import { ObjectLoader } from '../../../src/loaders/ObjectLoader.js';
+import { ObjectLoader } from '../../../src/ddd/domain/support/loaders/ObjectLoader.js';
 
 QUnit.assert.success = function ( message ) {
 

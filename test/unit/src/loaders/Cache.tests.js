@@ -1,6 +1,6 @@
 /* global QUnit */
 
-import { Cache } from '../../../../src/loaders/Cache.js';
+import { Cache } from '../../../../src/ddd/domain/support/loaders/Cache.js';
 
 export default QUnit.module( 'Loaders', () => {
 

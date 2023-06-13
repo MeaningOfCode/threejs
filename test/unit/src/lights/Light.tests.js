@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { Light } from '../../../../src/lights/Light.js';
+import { Light } from '../../../../src/ddd/domain/support/lights/Light.js';
 
-import { Object3D } from '../../../../src/core/Object3D.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
 import { runStdLightTests } from '../../utils/qunit-utils.js';
 
 export default QUnit.module( 'Lights', () => {

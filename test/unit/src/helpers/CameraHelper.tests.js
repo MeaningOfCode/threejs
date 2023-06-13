@@ -1,9 +1,9 @@
 /* global QUnit */
 
-import { CameraHelper } from '../../../../src/helpers/CameraHelper.js';
+import { CameraHelper } from '../../../../src/ddd/adapter/inbound/helpers/CameraHelper.js';
 
-import { LineSegments } from '../../../../src/objects/LineSegments.js';
-import { PerspectiveCamera } from '../../../../src/cameras/PerspectiveCamera.js';
+import { LineSegments } from '../../../../src/ddd/domain/support/objects/LineSegments.js';
+import { PerspectiveCamera } from '../../../../src/ddd/domain/core/cameras/PerspectiveCamera.js';
 
 export default QUnit.module( 'Helpers', () => {
 

@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { AmbientLightProbe } from '../../../../src/lights/AmbientLightProbe.js';
+import { AmbientLightProbe } from '../../../../src/ddd/domain/support/lights/AmbientLightProbe.js';
 
-import { LightProbe } from '../../../../src/lights/LightProbe.js';
+import { LightProbe } from '../../../../src/ddd/domain/support/lights/LightProbe.js';
 
 export default QUnit.module( 'Lights', () => {
 

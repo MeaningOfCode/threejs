@@ -1,9 +1,9 @@
 /* global QUnit */
 
-import { SkeletonHelper } from '../../../../src/helpers/SkeletonHelper.js';
+import { SkeletonHelper } from '../../../../src/ddd/adapter/inbound/helpers/SkeletonHelper.js';
 
-import { LineSegments } from '../../../../src/objects/LineSegments.js';
-import { Bone } from '../../../../src/objects/Bone.js';
+import { LineSegments } from '../../../../src/ddd/domain/support/objects/LineSegments.js';
+import { Bone } from '../../../../src/ddd/domain/support/objects/Bone.js';
 
 export default QUnit.module( 'Helpers', () => {
 

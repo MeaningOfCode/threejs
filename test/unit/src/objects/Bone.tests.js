@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { Bone } from '../../../../src/objects/Bone.js';
+import { Bone } from '../../../../src/ddd/domain/support/objects/Bone.js';
 
-import { Object3D } from '../../../../src/core/Object3D.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
 
 export default QUnit.module( 'Objects', () => {
 

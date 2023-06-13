@@ -1,10 +1,10 @@
 /* global QUnit */
 
-import { SpotLightShadow } from '../../../../src/lights/SpotLightShadow.js';
+import { SpotLightShadow } from '../../../../src/ddd/domain/support/lights/SpotLightShadow.js';
 
-import { LightShadow } from '../../../../src/lights/LightShadow.js';
-import { SpotLight } from '../../../../src/lights/SpotLight.js';
-import { ObjectLoader } from '../../../../src/loaders/ObjectLoader.js';
+import { LightShadow } from '../../../../src/ddd/domain/support/lights/LightShadow.js';
+import { SpotLight } from '../../../../src/ddd/domain/support/lights/SpotLight.js';
+import { ObjectLoader } from '../../../../src/ddd/domain/support/loaders/ObjectLoader.js';
 
 export default QUnit.module( 'Lights', () => {
 

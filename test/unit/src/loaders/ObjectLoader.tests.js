@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { ObjectLoader } from '../../../../src/loaders/ObjectLoader.js';
+import { ObjectLoader } from '../../../../src/ddd/domain/support/loaders/ObjectLoader.js';
 
-import { Loader } from '../../../../src/loaders/Loader.js';
+import { Loader } from '../../../../src/ddd/domain/support/loaders/Loader.js';
 
 export default QUnit.module( 'Loaders', () => {
 

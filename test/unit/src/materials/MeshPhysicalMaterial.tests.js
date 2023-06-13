@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { MeshPhysicalMaterial } from '../../../../src/materials/MeshPhysicalMaterial.js';
+import { MeshPhysicalMaterial } from '../../../../src/ddd/domain/support/materials/MeshPhysicalMaterial.js';
 
-import { Material } from '../../../../src/materials/Material.js';
+import { Material } from '../../../../src/ddd/domain/support/materials/Material.js';
 
 export default QUnit.module( 'Materials', () => {
 

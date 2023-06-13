@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { Scene } from '../../../../src/scenes/Scene.js';
+import { Scene } from '../../../../src/ddd/domain/core/scenes/Scene.js';
 
-import { Object3D } from '../../../../src/core/Object3D.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
 
 export default QUnit.module( 'Scenes', () => {
 

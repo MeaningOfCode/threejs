@@ -1,9 +1,9 @@
 /* global QUnit */
 
-import { InstancedBufferGeometry } from '../../../../src/core/InstancedBufferGeometry.js';
+import { InstancedBufferGeometry } from '../../../../src/ddd/infrastructure/core/InstancedBufferGeometry.js';
 
-import { BufferGeometry } from '../../../../src/core/BufferGeometry.js';
-import { BufferAttribute } from '../../../../src/core/BufferAttribute.js';
+import { BufferGeometry } from '../../../../src/ddd/infrastructure/core/BufferGeometry.js';
+import { BufferAttribute } from '../../../../src/ddd/infrastructure/core/BufferAttribute.js';
 
 export default QUnit.module( 'Core', () => {
 

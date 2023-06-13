@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { LineDashedMaterial } from '../../../../src/materials/LineDashedMaterial.js';
+import { LineDashedMaterial } from '../../../../src/ddd/domain/support/materials/LineDashedMaterial.js';
 
-import { Material } from '../../../../src/materials/Material.js';
+import { Material } from '../../../../src/ddd/domain/support/materials/Material.js';
 
 export default QUnit.module( 'Materials', () => {
 

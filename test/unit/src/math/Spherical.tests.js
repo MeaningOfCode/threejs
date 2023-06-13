@@ -1,7 +1,7 @@
 /* global QUnit */
 
-import { Spherical } from '../../../../src/math/Spherical.js';
-import { Vector3 } from '../../../../src/math/Vector3.js';
+import { Spherical } from '../../../../src/ddd/infrastructure/math/Spherical.js';
+import { Vector3 } from '../../../../src/ddd/infrastructure/math/Vector3.js';
 import {
 	eps
 } from '../../utils/math-constants.js';

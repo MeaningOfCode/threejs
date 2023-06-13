@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { InstancedMesh } from '../../../../src/objects/InstancedMesh.js';
+import { InstancedMesh } from '../../../../src/ddd/domain/support/objects/InstancedMesh.js';
 
-import { Mesh } from '../../../../src/objects/Mesh.js';
+import { Mesh } from '../../../../src/ddd/domain/support/objects/Mesh.js';
 
 export default QUnit.module( 'Objects', () => {
 

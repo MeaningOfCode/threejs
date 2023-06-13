@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { QuaternionKeyframeTrack } from '../../../../../src/animation/tracks/QuaternionKeyframeTrack.js';
+import { QuaternionKeyframeTrack } from '../../../../../src/ddd/domain/support/animation/tracks/QuaternionKeyframeTrack.js';
 
-import { KeyframeTrack } from '../../../../../src/animation/KeyframeTrack.js';
+import { KeyframeTrack } from '../../../../../src/ddd/domain/support/animation/KeyframeTrack.js';
 
 export default QUnit.module( 'Animation', () => {
 

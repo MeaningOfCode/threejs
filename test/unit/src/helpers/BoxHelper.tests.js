@@ -1,12 +1,12 @@
 /* global QUnit */
 
-import { BoxHelper } from '../../../../src/helpers/BoxHelper.js';
+import { BoxHelper } from '../../../../src/ddd/adapter/inbound/helpers/BoxHelper.js';
 
-import { LineSegments } from '../../../../src/objects/LineSegments.js';
+import { LineSegments } from '../../../../src/ddd/domain/support/objects/LineSegments.js';
 import { runStdGeometryTests } from '../../utils/qunit-utils.js';
-import { BoxGeometry } from '../../../../src/geometries/BoxGeometry.js';
-import { SphereGeometry } from '../../../../src/geometries/SphereGeometry.js';
-import { Mesh } from '../../../../src/objects/Mesh.js';
+import { BoxGeometry } from '../../../../src/ddd/domain/support/geometries/BoxGeometry.js';
+import { SphereGeometry } from '../../../../src/ddd/domain/support/geometries/SphereGeometry.js';
+import { Mesh } from '../../../../src/ddd/domain/support/objects/Mesh.js';
 
 export default QUnit.module( 'Helpers', () => {
 

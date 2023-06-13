@@ -1,6 +1,6 @@
 /* global QUnit */
 
-import { WebGLRenderer } from '../../../../src/renderers/WebGLRenderer.js';
+import { WebGLRenderer } from '../../../../src/ddd/domain/core/renderers/WebGLRenderer.js';
 
 export default QUnit.module( 'Renderers', () => {
 

@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { DirectionalLight } from '../../../../src/lights/DirectionalLight.js';
+import { DirectionalLight } from '../../../../src/ddd/domain/support/lights/DirectionalLight.js';
 
-import { Light } from '../../../../src/lights/Light.js';
+import { Light } from '../../../../src/ddd/domain/support/lights/Light.js';
 import { runStdLightTests } from '../../utils/qunit-utils.js';
 
 export default QUnit.module( 'Lights', () => {

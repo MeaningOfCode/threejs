@@ -1,9 +1,9 @@
 /* global QUnit */
 
-import { CatmullRomCurve3 } from '../../../../../src/extras/curves/CatmullRomCurve3.js';
+import { CatmullRomCurve3 } from '../../../../../src/ddd/infrastructure/extras/curves/CatmullRomCurve3.js';
 
-import { Curve } from '../../../../../src/extras/core/Curve.js';
-import { Vector3 } from '../../../../../src/math/Vector3.js';
+import { Curve } from '../../../../../src/ddd/infrastructure/extras/core/Curve.js';
+import { Vector3 } from '../../../../../src/ddd/infrastructure/math/Vector3.js';
 
 export default QUnit.module( 'Extras', () => {
 

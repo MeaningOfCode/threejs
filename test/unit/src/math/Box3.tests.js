@@ -1,17 +1,17 @@
 /* global QUnit */
 
-import { Box3 } from '../../../../src/math/Box3.js';
-import { Sphere } from '../../../../src/math/Sphere.js';
-import { Triangle } from '../../../../src/math/Triangle.js';
-import { Plane } from '../../../../src/math/Plane.js';
-import { Vector3 } from '../../../../src/math/Vector3.js';
-import { Matrix4 } from '../../../../src/math/Matrix4.js';
-import { Mesh } from '../../../../src/objects/Mesh.js';
-import { BufferAttribute } from '../../../../src/core/BufferAttribute.js';
-import { BoxGeometry } from '../../../../src/geometries/BoxGeometry.js';
+import { Box3 } from '../../../../src/ddd/infrastructure/math/Box3.js';
+import { Sphere } from '../../../../src/ddd/infrastructure/math/Sphere.js';
+import { Triangle } from '../../../../src/ddd/infrastructure/math/Triangle.js';
+import { Plane } from '../../../../src/ddd/infrastructure/math/Plane.js';
+import { Vector3 } from '../../../../src/ddd/infrastructure/math/Vector3.js';
+import { Matrix4 } from '../../../../src/ddd/infrastructure/math/Matrix4.js';
+import { Mesh } from '../../../../src/ddd/domain/support/objects/Mesh.js';
+import { BufferAttribute } from '../../../../src/ddd/infrastructure/core/BufferAttribute.js';
+import { BoxGeometry } from '../../../../src/ddd/domain/support/geometries/BoxGeometry.js';
 import {
 	SphereGeometry,
-} from '../../../../src/geometries/SphereGeometry.js';
+} from '../../../../src/ddd/domain/support/geometries/SphereGeometry.js';
 import {
 	negInf3,
 	posInf3,

@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { Texture } from '../../../../src/textures/Texture.js';
+import { Texture } from '../../../../src/ddd/domain/support/textures/Texture.js';
 
-import { EventDispatcher } from '../../../../src/core/EventDispatcher.js';
+import { EventDispatcher } from '../../../../src/ddd/infrastructure/core/EventDispatcher.js';
 
 export default QUnit.module( 'Textures', () => {
 

@@ -1,7 +1,7 @@
 /* global QUnit */
 
-import { Uniform } from '../../../../src/core/Uniform.js';
-import { Vector3 } from '../../../../src/math/Vector3.js';
+import { Uniform } from '../../../../src/ddd/infrastructure/core/Uniform.js';
+import { Vector3 } from '../../../../src/ddd/infrastructure/math/Vector3.js';
 import {
 	x,
 	y,

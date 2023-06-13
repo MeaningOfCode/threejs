@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { PlaneGeometry } from '../../../../src/geometries/PlaneGeometry.js';
+import { PlaneGeometry } from '../../../../src/ddd/domain/support/geometries/PlaneGeometry.js';
 
-import { BufferGeometry } from '../../../../src/core/BufferGeometry.js';
+import { BufferGeometry } from '../../../../src/ddd/infrastructure/core/BufferGeometry.js';
 import { runStdGeometryTests } from '../../utils/qunit-utils.js';
 
 export default QUnit.module( 'Geometries', () => {

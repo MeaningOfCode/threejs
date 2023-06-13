@@ -1,7 +1,7 @@
 /* global QUnit */
 
-import { Box2 } from '../../../../src/math/Box2.js';
-import { Vector2 } from '../../../../src/math/Vector2.js';
+import { Box2 } from '../../../../src/ddd/infrastructure/math/Box2.js';
+import { Vector2 } from '../../../../src/ddd/infrastructure/math/Vector2.js';
 import {
 	negInf2,
 	posInf2,

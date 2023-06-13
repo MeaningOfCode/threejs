@@ -1,11 +1,11 @@
 /* global QUnit */
 
-import { BufferGeometryLoader } from '../../../../src/loaders/BufferGeometryLoader.js';
+import { BufferGeometryLoader } from '../../../../src/ddd/domain/support/loaders/BufferGeometryLoader.js';
 
-import { BufferAttribute } from '../../../../src/core/BufferAttribute.js';
-import { BufferGeometry } from '../../../../src/core/BufferGeometry.js';
-import { DynamicDrawUsage } from '../../../../src/constants.js';
-import { Loader } from '../../../../src/loaders/Loader.js';
+import { BufferAttribute } from '../../../../src/ddd/infrastructure/core/BufferAttribute.js';
+import { BufferGeometry } from '../../../../src/ddd/infrastructure/core/BufferGeometry.js';
+import { DynamicDrawUsage } from '../../../../src/ddd/constants.js';
+import { Loader } from '../../../../src/ddd/domain/support/loaders/Loader.js';
 
 export default QUnit.module( 'Loaders', () => {
 

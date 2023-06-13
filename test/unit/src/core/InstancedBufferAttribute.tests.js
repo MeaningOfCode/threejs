@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { InstancedBufferAttribute } from '../../../../src/core/InstancedBufferAttribute.js';
+import { InstancedBufferAttribute } from '../../../../src/ddd/infrastructure/core/InstancedBufferAttribute.js';
 
-import { BufferAttribute } from '../../../../src/core/BufferAttribute.js';
+import { BufferAttribute } from '../../../../src/ddd/infrastructure/core/BufferAttribute.js';
 
 export default QUnit.module( 'Core', () => {
 

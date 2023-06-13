@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { DodecahedronGeometry } from '../../../../src/geometries/DodecahedronGeometry.js';
+import { DodecahedronGeometry } from '../../../../src/ddd/domain/support/geometries/DodecahedronGeometry.js';
 
-import { PolyhedronGeometry } from '../../../../src/geometries/PolyhedronGeometry.js';
+import { PolyhedronGeometry } from '../../../../src/ddd/domain/support/geometries/PolyhedronGeometry.js';
 import { runStdGeometryTests } from '../../utils/qunit-utils.js';
 
 export default QUnit.module( 'Geometries', () => {

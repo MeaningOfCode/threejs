@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { Line } from '../../../../src/objects/Line.js';
+import { Line } from '../../../../src/ddd/domain/support/objects/Line.js';
 
-import { Object3D } from '../../../../src/core/Object3D.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
 
 export default QUnit.module( 'Objects', () => {
 

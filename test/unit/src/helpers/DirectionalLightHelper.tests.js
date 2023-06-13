@@ -1,9 +1,9 @@
 /* global QUnit */
 
-import { DirectionalLightHelper } from '../../../../src/helpers/DirectionalLightHelper.js';
+import { DirectionalLightHelper } from '../../../../src/ddd/adapter/inbound/helpers/DirectionalLightHelper.js';
 
-import { Object3D } from '../../../../src/core/Object3D.js';
-import { DirectionalLight } from '../../../../src/lights/DirectionalLight.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
+import { DirectionalLight } from '../../../../src/ddd/domain/support/lights/DirectionalLight.js';
 
 export default QUnit.module( 'Helpers', () => {
 

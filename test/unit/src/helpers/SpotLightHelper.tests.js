@@ -1,9 +1,9 @@
 /* global QUnit */
 
-import { SpotLightHelper } from '../../../../src/helpers/SpotLightHelper.js';
+import { SpotLightHelper } from '../../../../src/ddd/adapter/inbound/helpers/SpotLightHelper.js';
 
-import { Object3D } from '../../../../src/core/Object3D.js';
-import { SpotLight } from '../../../../src/lights/SpotLight.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
+import { SpotLight } from '../../../../src/ddd/domain/support/lights/SpotLight.js';
 
 export default QUnit.module( 'Helpers', () => {
 

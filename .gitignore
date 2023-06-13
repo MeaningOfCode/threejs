@@ -6,6 +6,7 @@
 npm-debug.log
 .jshintrc
 .vs/
+ 
 
 test/unit/build
 test/treeshake/index.bundle.js

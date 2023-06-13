@@ -1,9 +1,9 @@
 /* global QUnit */
 
-import { ShapeGeometry } from '../../../../src/geometries/ShapeGeometry.js';
+import { ShapeGeometry } from '../../../../src/ddd/domain/support/geometries/ShapeGeometry.js';
 
-import { Shape } from '../../../../src/extras/core/Shape.js';
-import { BufferGeometry } from '../../../../src/core/BufferGeometry.js';
+import { Shape } from '../../../../src/ddd/infrastructure/extras/core/Shape.js';
+import { BufferGeometry } from '../../../../src/ddd/infrastructure/core/BufferGeometry.js';
 // import { runStdGeometryTests } from '../../utils/qunit-utils.js';
 
 export default QUnit.module( 'Geometries', () => {

@@ -1,9 +1,9 @@
 /* global QUnit */
 
-import { Euler } from '../../../../src/math/Euler.js';
-import { Matrix4 } from '../../../../src/math/Matrix4.js';
-import { Quaternion } from '../../../../src/math/Quaternion.js';
-import { Vector3 } from '../../../../src/math/Vector3.js';
+import { Euler } from '../../../../src/ddd/infrastructure/math/Euler.js';
+import { Matrix4 } from '../../../../src/ddd/infrastructure/math/Matrix4.js';
+import { Quaternion } from '../../../../src/ddd/infrastructure/math/Quaternion.js';
+import { Vector3 } from '../../../../src/ddd/infrastructure/math/Vector3.js';
 import { x, y, z } from '../../utils/math-constants.js';
 
 const eulerZero = new Euler( 0, 0, 0, 'XYZ' );

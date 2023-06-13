@@ -1,18 +1,18 @@
 /* global QUnit */
 
-import { EdgesGeometry } from '../../../../src/geometries/EdgesGeometry.js';
+import { EdgesGeometry } from '../../../../src/ddd/domain/support/geometries/EdgesGeometry.js';
 
-import { BufferGeometry } from '../../../../src/core/BufferGeometry.js';
-import { BufferAttribute } from '../../../../src/core/BufferAttribute.js';
-import { Vector3 } from '../../../../src/math/Vector3.js';
+import { BufferGeometry } from '../../../../src/ddd/infrastructure/core/BufferGeometry.js';
+import { BufferAttribute } from '../../../../src/ddd/infrastructure/core/BufferAttribute.js';
+import { Vector3 } from '../../../../src/ddd/infrastructure/math/Vector3.js';
 
 // DEBUGGING
-import { Scene } from '../../../../src/scenes/Scene.js';
-import { Mesh } from '../../../../src/objects/Mesh.js';
-import { LineSegments } from '../../../../src/objects/LineSegments.js';
-import { LineBasicMaterial } from '../../../../src/materials/LineBasicMaterial.js';
-import { WebGLRenderer } from '../../../../src/renderers/WebGLRenderer.js';
-import { PerspectiveCamera } from '../../../../src/cameras/PerspectiveCamera.js';
+import { Scene } from '../../../../src/ddd/domain/core/scenes/Scene.js';
+import { Mesh } from '../../../../src/ddd/domain/support/objects/Mesh.js';
+import { LineSegments } from '../../../../src/ddd/domain/support/objects/LineSegments.js';
+import { LineBasicMaterial } from '../../../../src/ddd/domain/support/materials/LineBasicMaterial.js';
+import { WebGLRenderer } from '../../../../src/ddd/domain/core/renderers/WebGLRenderer.js';
+import { PerspectiveCamera } from '../../../../src/ddd/domain/core/cameras/PerspectiveCamera.js';
 
 //
 // HELPERS

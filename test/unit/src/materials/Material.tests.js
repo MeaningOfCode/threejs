@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { Material } from '../../../../src/materials/Material.js';
+import { Material } from '../../../../src/ddd/domain/support/materials/Material.js';
 
-import { EventDispatcher } from '../../../../src/core/EventDispatcher.js';
+import { EventDispatcher } from '../../../../src/ddd/infrastructure/core/EventDispatcher.js';
 
 export default QUnit.module( 'Materials', () => {
 

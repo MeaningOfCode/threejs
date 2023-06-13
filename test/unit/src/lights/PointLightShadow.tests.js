@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { PointLightShadow } from '../../../../src/lights/PointLightShadow.js';
+import { PointLightShadow } from '../../../../src/ddd/domain/support/lights/PointLightShadow.js';
 
-import { LightShadow } from '../../../../src/lights/LightShadow.js';
+import { LightShadow } from '../../../../src/ddd/domain/support/lights/LightShadow.js';
 
 export default QUnit.module( 'Lights', () => {
 

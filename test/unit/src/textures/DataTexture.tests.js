@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { DataTexture } from '../../../../src/textures/DataTexture.js';
+import { DataTexture } from '../../../../src/ddd/domain/support/textures/DataTexture.js';
 
-import { Texture } from '../../../../src/textures/Texture.js';
+import { Texture } from '../../../../src/ddd/domain/support/textures/Texture.js';
 
 export default QUnit.module( 'Textures', () => {
 

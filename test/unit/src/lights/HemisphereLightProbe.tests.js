@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { HemisphereLightProbe } from '../../../../src/lights/HemisphereLightProbe.js';
+import { HemisphereLightProbe } from '../../../../src/ddd/domain/support/lights/HemisphereLightProbe.js';
 
-import { LightProbe } from '../../../../src/lights/LightProbe.js';
+import { LightProbe } from '../../../../src/ddd/domain/support/lights/LightProbe.js';
 
 export default QUnit.module( 'Lights', () => {
 

@@ -1,14 +1,14 @@
 /* global QUnit */
 
-import { Raycaster } from '../../../../src/core/Raycaster.js';
-import { Vector3 } from '../../../../src/math/Vector3.js';
-import { Mesh } from '../../../../src/objects/Mesh.js';
-import { SphereGeometry } from '../../../../src/geometries/SphereGeometry.js';
-import { BufferGeometry } from '../../../../src/core/BufferGeometry.js';
-import { Line } from '../../../../src/objects/Line.js';
-import { Points } from '../../../../src/objects/Points.js';
-import { PerspectiveCamera } from '../../../../src/cameras/PerspectiveCamera.js';
-import { OrthographicCamera } from '../../../../src/cameras/OrthographicCamera.js';
+import { Raycaster } from '../../../../src/ddd/infrastructure/core/Raycaster.js';
+import { Vector3 } from '../../../../src/ddd/infrastructure/math/Vector3.js';
+import { Mesh } from '../../../../src/ddd/domain/support/objects/Mesh.js';
+import { SphereGeometry } from '../../../../src/ddd/domain/support/geometries/SphereGeometry.js';
+import { BufferGeometry } from '../../../../src/ddd/infrastructure/core/BufferGeometry.js';
+import { Line } from '../../../../src/ddd/domain/support/objects/Line.js';
+import { Points } from '../../../../src/ddd/domain/support/objects/Points.js';
+import { PerspectiveCamera } from '../../../../src/ddd/domain/core/cameras/PerspectiveCamera.js';
+import { OrthographicCamera } from '../../../../src/ddd/domain/core/cameras/OrthographicCamera.js';
 
 function checkRayDirectionAgainstReferenceVector( rayDirection, refVector, assert ) {
 

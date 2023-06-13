@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { FramebufferTexture } from '../../../../src/textures/FramebufferTexture.js';
+import { FramebufferTexture } from '../../../../src/ddd/domain/support/textures/FramebufferTexture.js';
 
-import { Texture } from '../../../../src/textures/Texture.js';
+import { Texture } from '../../../../src/ddd/domain/support/textures/Texture.js';
 
 export default QUnit.module( 'Textures', () => {
 

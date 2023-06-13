@@ -1,15 +1,15 @@
 /* global QUnit */
 
-import { UniformsUtils } from '../../../../../src/renderers/shaders/UniformsUtils.js';
-import { Color } from '../../../../../src/math/Color.js';
-import { Vector2 } from '../../../../../src/math/Vector2.js';
-import { Vector3 } from '../../../../../src/math/Vector3.js';
-import { Vector4 } from '../../../../../src/math/Vector4.js';
-import { Matrix3 } from '../../../../../src/math/Matrix3.js';
-import { Matrix4 } from '../../../../../src/math/Matrix4.js';
-import { Quaternion } from '../../../../../src/math/Quaternion.js';
-import { Texture } from '../../../../../src/textures/Texture.js';
-import { CubeReflectionMapping, UVMapping } from '../../../../../src/constants.js';
+import { UniformsUtils } from '../../../../../src/ddd/domain/core/renderers/shaders/UniformsUtils.js';
+import { Color } from '../../../../../src/ddd/infrastructure/math/Color.js';
+import { Vector2 } from '../../../../../src/ddd/infrastructure/math/Vector2.js';
+import { Vector3 } from '../../../../../src/ddd/infrastructure/math/Vector3.js';
+import { Vector4 } from '../../../../../src/ddd/infrastructure/math/Vector4.js';
+import { Matrix3 } from '../../../../../src/ddd/infrastructure/math/Matrix3.js';
+import { Matrix4 } from '../../../../../src/ddd/infrastructure/math/Matrix4.js';
+import { Quaternion } from '../../../../../src/ddd/infrastructure/math/Quaternion.js';
+import { Texture } from '../../../../../src/ddd/domain/support/textures/Texture.js';
+import { CubeReflectionMapping, UVMapping } from '../../../../../src/ddd/constants.js';
 import { CONSOLE_LEVEL } from '../../../utils/console-wrapper.js';
 
 export default QUnit.module( 'Renderers', () => {
@@ -57,7 +57,7 @@ export default QUnit.module( 'Renderers', () => {
 				};
 
 				const uniformClones = UniformsUtils.clone(uniforms);
-	
+
 				assert.ok( uniforms.floatValue.value === uniformClones.floatValue.value );
 				assert.ok( uniforms.intValue.value === uniformClones.intValue.value );
 				assert.ok( uniforms.boolValue.value === uniformClones.boolValue.value );
@@ -91,7 +91,7 @@ export default QUnit.module( 'Renderers', () => {
 					arrayValue: { value: [1, 2, 3, 4] },
 					textureValue: { value: new Texture(null, CubeReflectionMapping) },
 				};
-	
+
 				const uniformClones = UniformsUtils.clone(uniforms);
 
 				// Modify the originals

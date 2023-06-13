@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { BooleanKeyframeTrack } from '../../../../../src/animation/tracks/BooleanKeyframeTrack.js';
+import { BooleanKeyframeTrack } from '../../../../../src/ddd/domain/support/animation/tracks/BooleanKeyframeTrack.js';
 
-import { KeyframeTrack } from '../../../../../src/animation/KeyframeTrack.js';
+import { KeyframeTrack } from '../../../../../src/ddd/domain/support/animation/KeyframeTrack.js';
 
 export default QUnit.module( 'Animation', () => {
 

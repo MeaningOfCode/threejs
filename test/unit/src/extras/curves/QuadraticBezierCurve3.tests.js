@@ -1,9 +1,9 @@
 /* global QUnit */
 
-import { QuadraticBezierCurve3 } from '../../../../../src/extras/curves/QuadraticBezierCurve3.js';
+import { QuadraticBezierCurve3 } from '../../../../../src/ddd/infrastructure/extras/curves/QuadraticBezierCurve3.js';
 
-import { Curve } from '../../../../../src/extras/core/Curve.js';
-import { Vector3 } from '../../../../../src/math/Vector3.js';
+import { Curve } from '../../../../../src/ddd/infrastructure/extras/core/Curve.js';
+import { Vector3 } from '../../../../../src/ddd/infrastructure/math/Vector3.js';
 
 export default QUnit.module( 'Extras', () => {
 

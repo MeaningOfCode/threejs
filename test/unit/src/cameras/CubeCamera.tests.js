@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { CubeCamera } from '../../../../src/cameras/CubeCamera.js';
+import { CubeCamera } from '../../../../src/ddd/domain/core/cameras/CubeCamera.js';
 
-import { Object3D } from '../../../../src/core/Object3D.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
 
 export default QUnit.module( 'Cameras', () => {
 

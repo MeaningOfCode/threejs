@@ -1,6 +1,6 @@
 /* global QUnit */
 
-import { ShapePath } from '../../../../../src/extras/core/ShapePath.js';
+import { ShapePath } from '../../../../../src/ddd/infrastructure/extras/core/ShapePath.js';
 
 export default QUnit.module( 'Extras', () => {
 

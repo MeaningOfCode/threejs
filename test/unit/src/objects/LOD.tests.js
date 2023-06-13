@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { Object3D } from '../../../../src/core/Object3D.js';
-import { Raycaster } from '../../../../src/core/Raycaster.js';
-import { LOD } from '../../../../src/objects/LOD.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
+import { Raycaster } from '../../../../src/ddd/infrastructure/core/Raycaster.js';
+import { LOD } from '../../../../src/ddd/domain/support/objects/LOD.js';
 
 export default QUnit.module( 'Objects', () => {
 

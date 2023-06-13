@@ -1,9 +1,9 @@
 /* global QUnit */
 
-import { HemisphereLightHelper } from '../../../../src/helpers/HemisphereLightHelper.js';
+import { HemisphereLightHelper } from '../../../../src/ddd/adapter/inbound/helpers/HemisphereLightHelper.js';
 
-import { Object3D } from '../../../../src/core/Object3D.js';
-import { HemisphereLight } from '../../../../src/lights/HemisphereLight.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
+import { HemisphereLight } from '../../../../src/ddd/domain/support/lights/HemisphereLight.js';
 
 export default QUnit.module( 'Helpers', () => {
 

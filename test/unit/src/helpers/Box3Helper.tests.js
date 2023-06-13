@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { Box3Helper } from '../../../../src/helpers/Box3Helper.js';
+import { Box3Helper } from '../../../../src/ddd/adapter/inbound/helpers/Box3Helper.js';
 
-import { LineSegments } from '../../../../src/objects/LineSegments.js';
+import { LineSegments } from '../../../../src/ddd/domain/support/objects/LineSegments.js';
 
 export default QUnit.module( 'Helpers', () => {
 

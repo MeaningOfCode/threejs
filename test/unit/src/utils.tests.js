@@ -1,6 +1,6 @@
 /* global QUnit */
 
-import { arrayMin, arrayMax, getTypedArray } from '../../../src/utils.js';
+import { arrayMin, arrayMax, getTypedArray } from '../../../src/ddd/utils.js';
 
 QUnit.module( 'utils', () => {
 

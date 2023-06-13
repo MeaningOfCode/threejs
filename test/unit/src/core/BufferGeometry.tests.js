@@ -1,20 +1,20 @@
 /* global QUnit */
 
-import { BufferGeometry } from '../../../../src/core/BufferGeometry.js';
+import { BufferGeometry } from '../../../../src/ddd/infrastructure/core/BufferGeometry.js';
 
 import {
 	BufferAttribute,
 	Float16BufferAttribute,
 	Uint16BufferAttribute,
 	Uint32BufferAttribute
-} from '../../../../src/core/BufferAttribute.js';
-import { Vector3 } from '../../../../src/math/Vector3.js';
-import { Matrix4 } from '../../../../src/math/Matrix4.js';
-import { Quaternion } from '../../../../src/math/Quaternion.js';
-import { Sphere } from '../../../../src/math/Sphere.js';
+} from '../../../../src/ddd/infrastructure/core/BufferAttribute.js';
+import { Vector3 } from '../../../../src/ddd/infrastructure/math/Vector3.js';
+import { Matrix4 } from '../../../../src/ddd/infrastructure/math/Matrix4.js';
+import { Quaternion } from '../../../../src/ddd/infrastructure/math/Quaternion.js';
+import { Sphere } from '../../../../src/ddd/infrastructure/math/Sphere.js';
 import { x, y, z } from '../../utils/math-constants.js';
-import { EventDispatcher } from '../../../../src/core/EventDispatcher.js';
-import { toHalfFloat } from '../../../../src/extras/DataUtils.js';
+import { EventDispatcher } from '../../../../src/ddd/infrastructure/core/EventDispatcher.js';
+import { toHalfFloat } from '../../../../src/ddd/infrastructure/extras/DataUtils.js';
 
 const DegToRad = Math.PI / 180;
 

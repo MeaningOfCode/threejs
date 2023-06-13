@@ -1,9 +1,9 @@
 /* global QUnit */
 
-import { PointLightHelper } from '../../../../src/helpers/PointLightHelper.js';
+import { PointLightHelper } from '../../../../src/ddd/adapter/inbound/helpers/PointLightHelper.js';
 
-import { Mesh } from '../../../../src/objects/Mesh.js';
-import { PointLight } from '../../../../src/lights/PointLight.js';
+import { Mesh } from '../../../../src/ddd/domain/support/objects/Mesh.js';
+import { PointLight } from '../../../../src/ddd/domain/support/lights/PointLight.js';
 
 export default QUnit.module( 'Helpers', () => {
 

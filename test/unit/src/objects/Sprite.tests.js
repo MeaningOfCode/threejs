@@ -1,7 +1,7 @@
 /* global QUnit */
 
-import { Object3D } from '../../../../src/core/Object3D.js';
-import { Sprite } from '../../../../src/objects/Sprite.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
+import { Sprite } from '../../../../src/ddd/domain/support/objects/Sprite.js';
 
 export default QUnit.module( 'Objects', () => {
 

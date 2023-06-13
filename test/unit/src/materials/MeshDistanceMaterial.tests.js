@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { MeshDistanceMaterial } from '../../../../src/materials/MeshDistanceMaterial.js';
+import { MeshDistanceMaterial } from '../../../../src/ddd/domain/support/materials/MeshDistanceMaterial.js';
 
-import { Material } from '../../../../src/materials/Material.js';
+import { Material } from '../../../../src/ddd/domain/support/materials/Material.js';
 
 export default QUnit.module( 'Materials', () => {
 

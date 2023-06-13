@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { CanvasTexture } from '../../../../src/textures/CanvasTexture.js';
+import { CanvasTexture } from '../../../../src/ddd/domain/support/textures/CanvasTexture.js';
 
-import { Texture } from '../../../../src/textures/Texture.js';
+import { Texture } from '../../../../src/ddd/domain/support/textures/Texture.js';
 
 export default QUnit.module( 'Textures', () => {
 

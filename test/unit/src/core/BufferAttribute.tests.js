@@ -1,6 +1,6 @@
 /* global QUnit */
 
-import { BufferAttribute } from '../../../../src/core/BufferAttribute.js';
+import { BufferAttribute } from '../../../../src/ddd/infrastructure/core/BufferAttribute.js';
 
 import {
 	Int8BufferAttribute,
@@ -13,10 +13,10 @@ import {
 	Float16BufferAttribute,
 	Float32BufferAttribute,
 	Float64BufferAttribute
-} from '../../../../src/core/BufferAttribute.js';
+} from '../../../../src/ddd/infrastructure/core/BufferAttribute.js';
 
-import { DynamicDrawUsage } from '../../../../src/constants.js';
-import { toHalfFloat, fromHalfFloat } from '../../../../src/extras/DataUtils.js';
+import { DynamicDrawUsage } from '../../../../src/ddd/constants.js';
+import { toHalfFloat, fromHalfFloat } from '../../../../src/ddd/infrastructure/extras/DataUtils.js';
 
 export default QUnit.module( 'Core', () => {
 

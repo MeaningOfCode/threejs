@@ -1,6 +1,6 @@
 /* global QUnit */
 
-import { Skeleton } from '../../../../src/objects/Skeleton.js';
+import { Skeleton } from '../../../../src/ddd/domain/support/objects/Skeleton.js';
 
 export default QUnit.module( 'Objects', () => {
 

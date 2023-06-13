@@ -1,6 +1,6 @@
 /* global QUnit */
 
-import { WebGLExtensions } from '../../../../../src/renderers/webgl/WebGLExtensions.js';
+import { WebGLExtensions } from '../../../../../src/ddd/domain/core/renderers/webgl/WebGLExtensions.js';
 
 import { CONSOLE_LEVEL } from '../../../utils/console-wrapper.js';
 

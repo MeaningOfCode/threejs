@@ -1,6 +1,6 @@
 /* global QUnit */
 
-import { Layers } from '../../../../src/core/Layers.js';
+import { Layers } from '../../../../src/ddd/infrastructure/core/Layers.js';
 
 export default QUnit.module( 'Core', () => {
 

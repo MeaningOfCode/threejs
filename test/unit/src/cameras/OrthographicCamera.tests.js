@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { OrthographicCamera } from '../../../../src/cameras/OrthographicCamera.js';
+import { OrthographicCamera } from '../../../../src/ddd/domain/core/cameras/OrthographicCamera.js';
 
-import { Camera } from '../../../../src/cameras/Camera.js';
+import { Camera } from '../../../../src/ddd/domain/core/cameras/Camera.js';
 
 export default QUnit.module( 'Cameras', () => {
 

@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { ArrowHelper } from '../../../../src/helpers/ArrowHelper.js';
+import { ArrowHelper } from '../../../../src/ddd/adapter/inbound/helpers/ArrowHelper.js';
 
-import { Object3D } from '../../../../src/core/Object3D.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
 
 export default QUnit.module( 'Helpers', () => {
 

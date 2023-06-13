@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { WebGLMultipleRenderTargets } from '../../../../src/renderers/WebGLMultipleRenderTargets.js';
+import { WebGLMultipleRenderTargets } from '../../../../src/ddd/domain/core/renderers/WebGLMultipleRenderTargets.js';
 
-import { WebGLRenderTarget } from '../../../../src/renderers/WebGLRenderTarget.js';
+import { WebGLRenderTarget } from '../../../../src/ddd/domain/core/renderers/WebGLRenderTarget.js';
 
 export default QUnit.module( 'Renderers', () => {
 

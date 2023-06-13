@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { GridHelper } from '../../../../src/helpers/GridHelper.js';
+import { GridHelper } from '../../../../src/ddd/adapter/inbound/helpers/GridHelper.js';
 
-import { LineSegments } from '../../../../src/objects/LineSegments.js';
+import { LineSegments } from '../../../../src/ddd/domain/support/objects/LineSegments.js';
 
 export default QUnit.module( 'Helpers', () => {
 

@@ -1,10 +1,10 @@
 /* global QUnit */
 
-import { PropertyBinding } from '../../../../src/animation/PropertyBinding.js';
+import { PropertyBinding } from '../../../../src/ddd/domain/support/animation/PropertyBinding.js';
 
-import { BoxGeometry } from '../../../../src/geometries/BoxGeometry.js';
-import { Mesh } from '../../../../src/objects/Mesh.js';
-import { MeshBasicMaterial } from '../../../../src/materials/MeshBasicMaterial.js';
+import { BoxGeometry } from '../../../../src/ddd/domain/support/geometries/BoxGeometry.js';
+import { Mesh } from '../../../../src/ddd/domain/support/objects/Mesh.js';
+import { MeshBasicMaterial } from '../../../../src/ddd/domain/support/materials/MeshBasicMaterial.js';
 
 export default QUnit.module( 'Animation', () => {
 

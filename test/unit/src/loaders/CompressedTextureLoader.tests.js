@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { CompressedTextureLoader } from '../../../../src/loaders/CompressedTextureLoader.js';
+import { CompressedTextureLoader } from '../../../../src/ddd/domain/support/loaders/CompressedTextureLoader.js';
 
-import { Loader } from '../../../../src/loaders/Loader.js';
+import { Loader } from '../../../../src/ddd/domain/support/loaders/Loader.js';
 
 export default QUnit.module( 'Loaders', () => {
 

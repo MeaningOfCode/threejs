@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { AxesHelper } from '../../../../src/helpers/AxesHelper.js';
+import { AxesHelper } from '../../../../src/ddd/adapter/inbound/helpers/AxesHelper.js';
 
-import { LineSegments } from '../../../../src/objects/LineSegments.js';
+import { LineSegments } from '../../../../src/ddd/domain/support/objects/LineSegments.js';
 
 export default QUnit.module( 'Helpers', () => {
 

@@ -1,11 +1,11 @@
 /* global QUnit */
 
-import { TubeGeometry } from '../../../../src/geometries/TubeGeometry.js';
+import { TubeGeometry } from '../../../../src/ddd/domain/support/geometries/TubeGeometry.js';
 
-import { LineCurve3 } from '../../../../src/extras/curves/LineCurve3.js';
-import { Vector3 } from '../../../../src/math/Vector3.js';
+import { LineCurve3 } from '../../../../src/ddd/infrastructure/extras/curves/LineCurve3.js';
+import { Vector3 } from '../../../../src/ddd/infrastructure/math/Vector3.js';
 
-import { BufferGeometry } from '../../../../src/core/BufferGeometry.js';
+import { BufferGeometry } from '../../../../src/ddd/infrastructure/core/BufferGeometry.js';
 // import { runStdGeometryTests } from '../../utils/qunit-utils.js';
 
 export default QUnit.module( 'Geometries', () => {

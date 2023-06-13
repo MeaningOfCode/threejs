@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { PolarGridHelper } from '../../../../src/helpers/PolarGridHelper.js';
+import { PolarGridHelper } from '../../../../src/ddd/adapter/inbound/helpers/PolarGridHelper.js';
 
-import { LineSegments } from '../../../../src/objects/LineSegments.js';
+import { LineSegments } from '../../../../src/ddd/domain/support/objects/LineSegments.js';
 
 export default QUnit.module( 'Helpers', () => {
 

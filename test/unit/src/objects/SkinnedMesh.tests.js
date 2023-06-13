@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { Object3D } from '../../../../src/core/Object3D.js';
-import { Mesh } from '../../../../src/objects/Mesh.js';
-import { SkinnedMesh } from '../../../../src/objects/SkinnedMesh.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
+import { Mesh } from '../../../../src/ddd/domain/support/objects/Mesh.js';
+import { SkinnedMesh } from '../../../../src/ddd/domain/support/objects/SkinnedMesh.js';
 
 export default QUnit.module( 'Objects', () => {
 

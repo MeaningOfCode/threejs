@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { CubeTextureLoader } from '../../../../src/loaders/CubeTextureLoader.js';
+import { CubeTextureLoader } from '../../../../src/ddd/domain/support/loaders/CubeTextureLoader.js';
 
-import { Loader } from '../../../../src/loaders/Loader.js';
+import { Loader } from '../../../../src/ddd/domain/support/loaders/Loader.js';
 
 export default QUnit.module( 'Loaders', () => {
 

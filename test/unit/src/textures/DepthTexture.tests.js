@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { DepthTexture } from '../../../../src/textures/DepthTexture.js';
+import { DepthTexture } from '../../../../src/ddd/domain/support/textures/DepthTexture.js';
 
-import { Texture } from '../../../../src/textures/Texture.js';
+import { Texture } from '../../../../src/ddd/domain/support/textures/Texture.js';
 
 export default QUnit.module( 'Textures', () => {
 

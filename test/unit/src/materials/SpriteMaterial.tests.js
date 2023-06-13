@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { SpriteMaterial } from '../../../../src/materials/SpriteMaterial.js';
+import { SpriteMaterial } from '../../../../src/ddd/domain/support/materials/SpriteMaterial.js';
 
-import { Material } from '../../../../src/materials/Material.js';
+import { Material } from '../../../../src/ddd/domain/support/materials/Material.js';
 
 export default QUnit.module( 'Materials', () => {
 

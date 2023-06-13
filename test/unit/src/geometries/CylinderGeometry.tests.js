@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { CylinderGeometry } from '../../../../src/geometries/CylinderGeometry.js';
+import { CylinderGeometry } from '../../../../src/ddd/domain/support/geometries/CylinderGeometry.js';
 
-import { BufferGeometry } from '../../../../src/core/BufferGeometry.js';
+import { BufferGeometry } from '../../../../src/ddd/infrastructure/core/BufferGeometry.js';
 import { runStdGeometryTests } from '../../utils/qunit-utils.js';
 
 export default QUnit.module( 'Geometries', () => {

@@ -1,15 +1,15 @@
 /* global QUnit */
 
-import { Frustum } from '../../../../src/math/Frustum.js';
+import { Frustum } from '../../../../src/ddd/infrastructure/math/Frustum.js';
 
-import { Sphere } from '../../../../src/math/Sphere.js';
-import { Plane } from '../../../../src/math/Plane.js';
-import { Sprite } from '../../../../src/objects/Sprite.js';
-import { Vector3 } from '../../../../src/math/Vector3.js';
-import { Matrix4 } from '../../../../src/math/Matrix4.js';
-import { Box3 } from '../../../../src/math/Box3.js';
-import { Mesh } from '../../../../src/objects/Mesh.js';
-import { BoxGeometry } from '../../../../src/geometries/BoxGeometry.js';
+import { Sphere } from '../../../../src/ddd/infrastructure/math/Sphere.js';
+import { Plane } from '../../../../src/ddd/infrastructure/math/Plane.js';
+import { Sprite } from '../../../../src/ddd/domain/support/objects/Sprite.js';
+import { Vector3 } from '../../../../src/ddd/infrastructure/math/Vector3.js';
+import { Matrix4 } from '../../../../src/ddd/infrastructure/math/Matrix4.js';
+import { Box3 } from '../../../../src/ddd/infrastructure/math/Box3.js';
+import { Mesh } from '../../../../src/ddd/domain/support/objects/Mesh.js';
+import { BoxGeometry } from '../../../../src/ddd/domain/support/geometries/BoxGeometry.js';
 import { zero3, one3, eps } from '../../utils/math-constants.js';
 
 const unit3 = new Vector3( 1, 0, 0 );

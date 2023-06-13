@@ -1,6 +1,6 @@
 /* global QUnit */
 
-import * as Constants from '../../../src/constants.js';
+import * as Constants from '../../../src/ddd/constants.js';
 
 export default QUnit.module( 'Constants', () => {
 

@@ -1,10 +1,10 @@
 /* global QUnit */
 
-import { BufferAttribute } from '../../../../src/core/BufferAttribute.js';
-import { Triangle } from '../../../../src/math/Triangle.js';
-import { Box3 } from '../../../../src/math/Box3.js';
-import { Plane } from '../../../../src/math/Plane.js';
-import { Vector3 } from '../../../../src/math/Vector3.js';
+import { BufferAttribute } from '../../../../src/ddd/infrastructure/core/BufferAttribute.js';
+import { Triangle } from '../../../../src/ddd/infrastructure/math/Triangle.js';
+import { Box3 } from '../../../../src/ddd/infrastructure/math/Box3.js';
+import { Plane } from '../../../../src/ddd/infrastructure/math/Plane.js';
+import { Vector3 } from '../../../../src/ddd/infrastructure/math/Vector3.js';
 import {
 	zero3,
 	one3,

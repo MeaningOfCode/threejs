@@ -1,9 +1,9 @@
 /* global QUnit */
 
-import { Camera } from '../../../../src/cameras/Camera.js';
+import { Camera } from '../../../../src/ddd/domain/core/cameras/Camera.js';
 
-import { Vector3 } from '../../../../src/math/Vector3.js';
-import { Object3D } from '../../../../src/core/Object3D.js';
+import { Vector3 } from '../../../../src/ddd/infrastructure/math/Vector3.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
 
 export default QUnit.module( 'Cameras', () => {
 

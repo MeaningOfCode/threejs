@@ -1,7 +1,7 @@
 /* global QUnit */
 
-import { Cylindrical } from '../../../../src/math/Cylindrical.js';
-import { Vector3 } from '../../../../src/math/Vector3.js';
+import { Cylindrical } from '../../../../src/ddd/infrastructure/math/Cylindrical.js';
+import { Vector3 } from '../../../../src/ddd/infrastructure/math/Vector3.js';
 import { eps } from '../../utils/math-constants.js';
 
 export default QUnit.module( 'Maths', () => {

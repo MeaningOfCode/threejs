@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { WebGLRenderTarget } from '../../../../src/renderers/WebGLRenderTarget.js';
+import { WebGLRenderTarget } from '../../../../src/ddd/domain/core/renderers/WebGLRenderTarget.js';
 
-import { EventDispatcher } from '../../../../src/core/EventDispatcher.js';
+import { EventDispatcher } from '../../../../src/ddd/infrastructure/core/EventDispatcher.js';
 
 export default QUnit.module( 'Renderers', () => {
 

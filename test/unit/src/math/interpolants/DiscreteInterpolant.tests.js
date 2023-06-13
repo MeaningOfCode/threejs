@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { DiscreteInterpolant } from '../../../../../src/math/interpolants/DiscreteInterpolant.js';
+import { DiscreteInterpolant } from '../../../../../src/ddd/infrastructure/math/interpolants/DiscreteInterpolant.js';
 
-import { Interpolant } from '../../../../../src/math/Interpolant.js';
+import { Interpolant } from '../../../../../src/ddd/infrastructure/math/Interpolant.js';
 
 export default QUnit.module( 'Maths', () => {
 

@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { CircleGeometry } from '../../../../src/geometries/CircleGeometry.js';
+import { CircleGeometry } from '../../../../src/ddd/domain/support/geometries/CircleGeometry.js';
 
-import { BufferGeometry } from '../../../../src/core/BufferGeometry.js';
+import { BufferGeometry } from '../../../../src/ddd/infrastructure/core/BufferGeometry.js';
 import { runStdGeometryTests } from '../../utils/qunit-utils.js';
 
 export default QUnit.module( 'Geometries', () => {

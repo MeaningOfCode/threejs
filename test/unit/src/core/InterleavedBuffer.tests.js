@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { InterleavedBuffer } from '../../../../src/core/InterleavedBuffer.js';
+import { InterleavedBuffer } from '../../../../src/ddd/infrastructure/core/InterleavedBuffer.js';
 
-import { DynamicDrawUsage } from '../../../../src/constants.js';
+import { DynamicDrawUsage } from '../../../../src/ddd/constants.js';
 
 export default QUnit.module( 'Core', () => {
 

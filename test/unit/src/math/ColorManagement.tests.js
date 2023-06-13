@@ -1,6 +1,6 @@
 /* global QUnit */
 
-import { ColorManagement } from '../../../../src/math/ColorManagement.js';
+import { ColorManagement } from '../../../../src/ddd/infrastructure/math/ColorManagement.js';
 
 import { CONSOLE_LEVEL } from '../../utils/console-wrapper.js';
 

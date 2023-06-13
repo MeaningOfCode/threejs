@@ -1,14 +1,14 @@
 /* global QUnit */
 
-import { Object3D } from '../../../../src/core/Object3D.js';
-import { Mesh } from '../../../../src/objects/Mesh.js';
-import { Raycaster } from '../../../../src/core/Raycaster.js';
-import { PlaneGeometry } from '../../../../src/geometries/PlaneGeometry.js';
-import { BoxGeometry } from '../../../../src/geometries/BoxGeometry.js';
-import { MeshBasicMaterial } from '../../../../src/materials/MeshBasicMaterial.js';
-import { Vector2 } from '../../../../src/math/Vector2.js';
-import { Vector3 } from '../../../../src/math/Vector3.js';
-import { DoubleSide } from '../../../../src/constants.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
+import { Mesh } from '../../../../src/ddd/domain/support/objects/Mesh.js';
+import { Raycaster } from '../../../../src/ddd/infrastructure/core/Raycaster.js';
+import { PlaneGeometry } from '../../../../src/ddd/domain/support/geometries/PlaneGeometry.js';
+import { BoxGeometry } from '../../../../src/ddd/domain/support/geometries/BoxGeometry.js';
+import { MeshBasicMaterial } from '../../../../src/ddd/domain/support/materials/MeshBasicMaterial.js';
+import { Vector2 } from '../../../../src/ddd/infrastructure/math/Vector2.js';
+import { Vector3 } from '../../../../src/ddd/infrastructure/math/Vector3.js';
+import { DoubleSide } from '../../../../src/ddd/constants.js';
 
 export default QUnit.module( 'Objects', () => {
 

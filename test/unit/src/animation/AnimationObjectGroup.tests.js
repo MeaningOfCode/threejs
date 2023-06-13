@@ -1,9 +1,9 @@
 /* global QUnit */
 
-import { AnimationObjectGroup } from '../../../../src/animation/AnimationObjectGroup.js';
+import { AnimationObjectGroup } from '../../../../src/ddd/domain/support/animation/AnimationObjectGroup.js';
 
-import { Object3D } from '../../../../src/core/Object3D.js';
-import { PropertyBinding } from '../../../../src/animation/PropertyBinding.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
+import { PropertyBinding } from '../../../../src/ddd/domain/support/animation/PropertyBinding.js';
 
 export default QUnit.module( 'Animation', () => {
 

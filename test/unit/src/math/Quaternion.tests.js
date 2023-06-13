@@ -1,11 +1,11 @@
 /* global QUnit */
 
-import { BufferAttribute } from '../../../../src/core/BufferAttribute.js';
-import { Quaternion } from '../../../../src/math/Quaternion.js';
-import { Vector3 } from '../../../../src/math/Vector3.js';
-import { Vector4 } from '../../../../src/math/Vector4.js';
-import { Euler } from '../../../../src/math/Euler.js';
-import { Matrix4 } from '../../../../src/math/Matrix4.js';
+import { BufferAttribute } from '../../../../src/ddd/infrastructure/core/BufferAttribute.js';
+import { Quaternion } from '../../../../src/ddd/infrastructure/math/Quaternion.js';
+import { Vector3 } from '../../../../src/ddd/infrastructure/math/Vector3.js';
+import { Vector4 } from '../../../../src/ddd/infrastructure/math/Vector4.js';
+import { Euler } from '../../../../src/ddd/infrastructure/math/Euler.js';
+import { Matrix4 } from '../../../../src/ddd/infrastructure/math/Matrix4.js';
 import {
 	x,
 	y,

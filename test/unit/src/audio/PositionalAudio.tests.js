@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { PositionalAudio } from '../../../../src/audio/PositionalAudio.js';
+import { PositionalAudio } from '../../../../src/ddd/domain/support/audio/PositionalAudio.js';
 
-import { Audio } from '../../../../src/audio/Audio.js';
+import { Audio } from '../../../../src/ddd/domain/support/audio/Audio.js';
 
 export default QUnit.module( 'Audios', () => {
 

@@ -1,10 +1,10 @@
 /* global QUnit */
 
-import { Color } from '../../../../src/math/Color.js';
-import { ColorManagement } from '../../../../src/math/ColorManagement.js';
+import { Color } from '../../../../src/ddd/infrastructure/math/Color.js';
+import { ColorManagement } from '../../../../src/ddd/infrastructure/math/ColorManagement.js';
 import { eps } from '../../utils/math-constants.js';
 import { CONSOLE_LEVEL } from '../../utils/console-wrapper.js';
-import { DisplayP3ColorSpace, SRGBColorSpace } from '../../../../src/constants.js';
+import { DisplayP3ColorSpace, SRGBColorSpace } from '../../../../src/ddd/constants.js';
 
 export default QUnit.module( 'Maths', () => {
 

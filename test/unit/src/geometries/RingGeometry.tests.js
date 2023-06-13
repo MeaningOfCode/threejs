@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { RingGeometry } from '../../../../src/geometries/RingGeometry.js';
+import { RingGeometry } from '../../../../src/ddd/domain/support/geometries/RingGeometry.js';
 
-import { BufferGeometry } from '../../../../src/core/BufferGeometry.js';
+import { BufferGeometry } from '../../../../src/ddd/infrastructure/core/BufferGeometry.js';
 import { runStdGeometryTests } from '../../utils/qunit-utils.js';
 
 export default QUnit.module( 'Geometries', () => {

@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { ConeGeometry } from '../../../../src/geometries/ConeGeometry.js';
+import { ConeGeometry } from '../../../../src/ddd/domain/support/geometries/ConeGeometry.js';
 
-import { CylinderGeometry } from '../../../../src/geometries/CylinderGeometry.js';
+import { CylinderGeometry } from '../../../../src/ddd/domain/support/geometries/CylinderGeometry.js';
 import { runStdGeometryTests } from '../../utils/qunit-utils.js';
 
 export default QUnit.module( 'Geometries', () => {

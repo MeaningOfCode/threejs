@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { RawShaderMaterial } from '../../../../src/materials/RawShaderMaterial.js';
+import { RawShaderMaterial } from '../../../../src/ddd/domain/support/materials/RawShaderMaterial.js';
 
-import { ShaderMaterial } from '../../../../src/materials/ShaderMaterial.js';
+import { ShaderMaterial } from '../../../../src/ddd/domain/support/materials/ShaderMaterial.js';
 
 export default QUnit.module( 'Materials', () => {
 

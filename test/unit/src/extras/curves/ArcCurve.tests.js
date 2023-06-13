@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { ArcCurve } from '../../../../../src/extras/curves/ArcCurve.js';
+import { ArcCurve } from '../../../../../src/ddd/infrastructure/extras/curves/ArcCurve.js';
 
-import { EllipseCurve } from '../../../../../src/extras/curves/EllipseCurve.js';
+import { EllipseCurve } from '../../../../../src/ddd/infrastructure/extras/curves/EllipseCurve.js';
 
 export default QUnit.module( 'Extras', () => {
 

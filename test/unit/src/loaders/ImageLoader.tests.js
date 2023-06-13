@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { ImageLoader } from '../../../../src/loaders/ImageLoader.js';
+import { ImageLoader } from '../../../../src/ddd/domain/support/loaders/ImageLoader.js';
 
-import { Loader } from '../../../../src/loaders/Loader.js';
+import { Loader } from '../../../../src/ddd/domain/support/loaders/Loader.js';
 
 export default QUnit.module( 'Loaders', () => {
 

@@ -1,11 +1,11 @@
 /* global QUnit */
 
-import { Object3D } from '../../../../src/core/Object3D.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
 
-import { Vector3 } from '../../../../src/math/Vector3.js';
-import { Euler } from '../../../../src/math/Euler.js';
-import { Quaternion } from '../../../../src/math/Quaternion.js';
-import { Matrix4 } from '../../../../src/math/Matrix4.js';
+import { Vector3 } from '../../../../src/ddd/infrastructure/math/Vector3.js';
+import { Euler } from '../../../../src/ddd/infrastructure/math/Euler.js';
+import { Quaternion } from '../../../../src/ddd/infrastructure/math/Quaternion.js';
+import { Matrix4 } from '../../../../src/ddd/infrastructure/math/Matrix4.js';
 import {
 	x,
 	y,
@@ -13,7 +13,7 @@ import {
 	w,
 	eps
 } from '../../utils/math-constants.js';
-import { EventDispatcher } from '../../../../src/core/EventDispatcher.js';
+import { EventDispatcher } from '../../../../src/ddd/infrastructure/core/EventDispatcher.js';
 
 const matrixEquals4 = ( a, b ) => {
 

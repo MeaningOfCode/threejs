@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { AudioListener } from '../../../../src/audio/AudioListener.js';
+import { AudioListener } from '../../../../src/ddd/domain/support/audio/AudioListener.js';
 
-import { Object3D } from '../../../../src/core/Object3D.js';
+import { Object3D } from '../../../../src/ddd/infrastructure/core/Object3D.js';
 
 export default QUnit.module( 'Audios', () => {
 

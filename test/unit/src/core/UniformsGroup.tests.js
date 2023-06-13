@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { UniformsGroup } from '../../../../src/core/UniformsGroup.js';
+import { UniformsGroup } from '../../../../src/ddd/infrastructure/core/UniformsGroup.js';
 
-import { EventDispatcher } from '../../../../src/core/EventDispatcher.js';
+import { EventDispatcher } from '../../../../src/ddd/infrastructure/core/EventDispatcher.js';
 
 export default QUnit.module( 'Core', () => {
 

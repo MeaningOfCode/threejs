@@ -1,8 +1,8 @@
 /* global QUnit */
 
-import { CapsuleGeometry } from '../../../../src/geometries/CapsuleGeometry.js';
+import { CapsuleGeometry } from '../../../../src/ddd/domain/support/geometries/CapsuleGeometry.js';
 
-import { LatheGeometry } from '../../../../src/geometries/LatheGeometry.js';
+import { LatheGeometry } from '../../../../src/ddd/domain/support/geometries/LatheGeometry.js';
 import { runStdGeometryTests } from '../../utils/qunit-utils.js';
 
 export default QUnit.module( 'Geometries', () => {
